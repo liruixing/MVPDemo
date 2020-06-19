@@ -1,0 +1,2 @@
+include ':app', ':LibNetwork', ':Libbase', ':libres', ':libcommon', ':module-first', ':module-second'
+rootProject.name='HappyDemo'

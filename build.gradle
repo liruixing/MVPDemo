@@ -1,0 +1,29 @@
+apply from: "config.gradle"
+apply plugin: 'com.alibaba.arouter'
+
+buildscript {
+    repositories {
+        mavenCentral() //需要
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath "com.alibaba:arouter-register:1.0.2"
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.0' //需要
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

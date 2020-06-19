@@ -30,7 +30,8 @@
 坑点：
 虽然butterknife提供了组件化的调用方案，但是切换成单一运行下还得把R2 改为R  ；
 
-
+之后会提交mvvm模式的demo，供初学者参考
+其实改动量就是切换一个base  & 在module中使用databinding
 
 
 

@@ -1,7 +1,9 @@
 #组件化实施demo     
 
 ##技术框架
+
 1）设计模式  MVP 
+
 2）ARouter+butterknife+rxjava2+retrofit2
 
 ##适合人群
